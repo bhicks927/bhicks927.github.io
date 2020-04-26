@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
+import Homepage from './Pages/Homepage';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Homepage greeting="Hi, I'm Brandon." conciseBio="I develop software and web apps." />
   </React.StrictMode>,
   document.getElementById('root')
 );

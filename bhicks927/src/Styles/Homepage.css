@@ -1,0 +1,20 @@
+.greeting {
+    font-size: 64px;
+}
+
+.conciseBio {
+    font-size: 20px;
+}
+
+.socialMediaLinks {
+    display: inline-block;
+}
+.socialMediaLinks ul li {
+    display: inline;
+
+
+}
+
+a {
+    text-decoration: none;
+}
