@@ -1,0 +1,25 @@
+nav {
+    display: block;
+    background-color: #202020;
+}
+
+nav div {
+    display: inline-block;
+    background-color: #202020;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.nav-item {
+    font-size: 32px;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right:5px;
+}
+
+.float-right {
+    float: right;
+}
